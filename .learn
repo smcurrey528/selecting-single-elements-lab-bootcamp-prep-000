@@ -1,7 +1,3 @@
-tags:
-  - JS
-  - selectors
-languages:
-  - JS
-resources: 
-  - 0
+var header = document.querySelector("#header").innerHTML
+var linkText = document.querySelector('a').text
+var linkHref = document.querySelector('a').href
